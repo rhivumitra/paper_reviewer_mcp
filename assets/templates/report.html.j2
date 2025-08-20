@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>{{ r.paper_id }} — Review</title>
+</head>
+<body>
+<h1>Review: {{ r.paper_id }}</h1>
+<p><strong>Total:</strong> {{ r.weighted_total }} / 100</p>
+<h2>Subscores</h2>
+<pre>{{ r.scores | tojson(indent=2) }}</pre>
+<h2>Confidence</h2>
+<pre>{{ r.confidence | tojson(indent=2) }}</pre>
+</body>
+</html>
