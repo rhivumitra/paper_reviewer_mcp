@@ -1,4 +1,4 @@
-# Paper Reviewer (Barebones)
+# Paper Reviewer 
 
 
 End-to-end scaffold for a research paper reviewer with deterministic checks + (later) local NLI & LLM-as-judge. Ships with an MCP wrapper.

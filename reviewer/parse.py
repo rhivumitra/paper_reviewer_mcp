@@ -1,7 +1,6 @@
-# reviewer/parse.py
 from typing import Dict, List, Tuple
 import re
-import fitz  # PyMuPDF
+import fitz  
 
 SECTION_KEYS = [
     "abstract", "introduction", "related work", "methods",
